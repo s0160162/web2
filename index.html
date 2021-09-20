@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+      <html>
+        <head>
+          <title>Задание 2</title>
+        </head>
+
+        <body>
+          <h1>Задание 2</h1>
+          <ol>
+          <li><a href ="http://example.com">Абсолютная </a></li>
+          <li><a href ="https://example.com">Абсолютная в https</a></li>
+          <li><a href ="ftp://stonehub.ru/FAQ/manual.txt">Файл FTP без авторизации</a></li>
+          <li><a href ="ftp://antonina:antonina2002@stonehub.ru/questions/help.txt">Файл FTP с авторизацией</a></li>
+          <li><a href ="https://ru.wikipedia.org/wiki/Заглавная_страница#top">Фрагмент сайта</a></li>
+          <li><a href =“#top”>Фрагмент этой страницы</a></li>
+          <li><a href ="https://moodle.kubsu.ru/course/view.php?id=780">Два URL</a></li>
+         <li><a href="https://moodle.kubsu.ru/">Список </a></li>
+              <li>
+                <nav> 
+                    <ul> 
+                        <li><a href="https://moodle.kubsu.ru/course/index.php?categoryid=4"> Title </a></li>
+                        <li><a href="https://moodle.kubsu.ru/course/index.php?categoryid=5"> Title </a></li>
+                    </ul> 
+                </nav>  
+              </li>
+          <li><a>Ссылка без href</a></li>
+          <li><a href ="">Пустойhref</a></li>
+          <li><a href ="https://moodle.kubsu.ru/" rel=nofollow>Запрещенный переход</a></l>
+          <li><!--noindex--><a href ="https://moodle.kubsu.ru/">Запрещенная индексация</a></l>
+          <li><a>Контекстная</a></li>
+          <li><img src="https://on-desktop.com/wps/Nature___Flowers_Spring_flower_Crocus_065815_.jpg" width="200"  height="200" alt="Изображение" /> </li>
+          
+          
+            <li><a href="about/files.html">Страница в каталоге about</a></li>
+              <li><a href="../index.html">Страница в каталоге уровнем выше</a></li>
+              <li><a href="../../index.html">Страница в каталоге двумя уровнями выше</a></li>
+              <li><a href="">Сокращенная на главную</a> </li>
+              <li><a href="/abouut/page.html">Сокращенная на внутреннюю</a></li>
+        
+            </ol>
+      
+            <h3>Таблица</h3>
+            <table>
+              <tr bgcolor="#FF0000">
+                <th>Колонка 1</th>
+                <th>Колонка 2</th>
+                <th>Колонка 3</th>
+              </tr>
+              <tr bgcolor="#FF0000">
+                <td>1</td>
+                <td colspan="2"> 2, 3</td>
+               </tr>
+               <tr bgcolor="#00FF00">
+                <td colspan="2"> 4, 5</td>
+                 <td>6</td>
+               </tr>
+               <tr bgcolor="#00FF00">
+                <td colspan="3"> 7, 8, 9</td>
+               </tr>
+               <tr bgcolor="#FF0000">
+                <td rowspan="2"> 10,13</td>
+                 <td>11</td>
+                 <td>12</td>
+               </tr>
+               <tr bgcolor="#00FF00">
+                <td> 14</td>
+                 <td >15</td>
+               </tr>
+           
+            </table>
+     
+          
+
+             <label>
+              Как тебя зовут?:<br />
+              <input name="field-name-1"
+                value="Например: Дарья" />
+            </label><br />
+          
+             <label>
+             Какой у тебя адрес электронной почты?:<br />
+              <input name="field-name-1"
+                value="Например: drago_a@list.ru"
+                     type="email" />
+            </label><br />
+          
+             <label>
+              Когда у тебя день рождения?:<br />
+              <input name="field-name-1"
+                value="2002-07-01"
+                     type="date" />
+            </label><br />
+          
+          Какого ты пола?:<br />
+            <label><input type="radio" checked="checked"
+              name="radio-group-1" value="Значение1" />
+             Женский</label>
+            <label><input type="radio"
+              name="radio-group-1" value="Значение2" />
+              Мужской</label><br />
+          
+          Сколько у тебя конечностей?:<br />
+            <label><input type="radio" checked="checked"
+              name="radio-group-1" value="Значение1" />
+              Одна</label>
+            <label><input type="radio"
+              name="radio-group-1" value="Значение2" />
+              Две</label><br />
+           <label><input type="radio"
+              name="radio-group-1" value="Значение3" />
+              Три</label><br />
+           <label><input type="radio"
+              name="radio-group-1" value="Значение4" />
+             Четыре</label><br />
+           <label><input type="radio"
+              name="radio-group-1" value="Значение5" />
+             Пять и более</label><br />
+           <label><input type="radio"
+              name="radio-group-1" value="Значение6" />
+             Затрудняюсь ответить</label><br />
+          
+           <label>
+              Какими сверхспособностями ты обладаешь?
+              <br />
+              <select name="field-name-4[]"
+                multiple="multiple">
+                <option value="Значение1">Бессмертие</option>
+                <option value="Значение2" selected="selected">Прохождение сквозь стены</option>
+                <option value="Значение3" selected="selected">Левитация</option>
+              </select>
+            </label><br />
+          
+          <label>
+              Расскажи немного о себе:<br />
+              <textarea name="field-name-2">Например: я увлекаюсь рисованием</textarea>
+            </label><br />
+          
+          До свидания :):<br />
+            <label><input type="checkbox" checked="checked"
+              name="check-1" />
+              До свидания</label><br />
+          
+         
+            <input type="submit" value="Отправить" />
+          </form>
+          
+          <a id=“top”>
+          
+        </body>
+      
+        
