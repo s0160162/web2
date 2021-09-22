@@ -5,8 +5,24 @@
           <title>Задание 2</title>
         </head>
 
+        <header>
+          <div class="logo"> 
+          <a href="index.html"><img src="img/log.jpg" width="220"  height="220">  </a>
+          <h1 align="center"> Задание 2 </h1></div>
+        
+        <nav> 
+          <div class="topnav" id="myTopnav">
+          <a href=""> Ссылка меню 1</a> 
+          <a href=""> Ссылка меню 2</a>
+          <a href=""> Ссылка меню 3</a>
+          <a id="menu" href="#" class+"icon">&#9776</a>
+          </div>
+      </nav>  
+      </header>
+      
         <body>
-          <h1>Задание 2</h1>
+          <div class="spisok">
+          <h2> Список </h2>
           <ol>
           <li><a href ="http://example.com">Абсолютная </a></li>
           <li><a href ="https://example.com">Абсолютная в https</a></li>
@@ -29,9 +45,14 @@
           <li><a href ="https://moodle.kubsu.ru/" rel=nofollow>Запрещенный переход</a></l>
           <li><!--noindex--><a href ="https://moodle.kubsu.ru/">Запрещенная индексация</a></l>
           <li><a>Контекстная</a></li>
-          <li><img src="https://on-desktop.com/wps/Nature___Flowers_Spring_flower_Crocus_065815_.jpg" width="200"  height="200" alt="Изображение" /> </li>
-          
-          
+          <li><img src="img/imgn.jpg" width="150"  height="225" alt="изображение" /> </li>
+          <li> <a href="https://kubsu.ru/"><img src="img/imgn.jpg" width="150" height="225" alt="Изображение со ссылкой"
+            usemap="#Navigation">
+            <p><map name="imgn">
+                <area shape="rect" coords="0,0,10,0" href="kubsu.ru/ru">
+                <area shape="circle" coords="10,10,10" href="">
+            </map></p>
+              </a></p></li>
             <li><a href="about/files.html">Страница в каталоге about</a></li>
               <li><a href="../index.html">Страница в каталоге уровнем выше</a></li>
               <li><a href="../../index.html">Страница в каталоге двумя уровнями выше</a></li>
@@ -39,39 +60,43 @@
               <li><a href="/abouut/page.html">Сокращенная на внутреннюю</a></li>
         
             </ol>
-      
+            </div>
+
+           
             <h3>Таблица</h3>
-            <table>
-              <tr bgcolor="#FF0000">
+             <div class="tablitsa">
+            <table border="3" >
+              <tr bgcolor="f707afa6">
                 <th>Колонка 1</th>
                 <th>Колонка 2</th>
                 <th>Колонка 3</th>
               </tr>
-              <tr bgcolor="#FF0000">
+              <tr bgcolor="#faebd7">
                 <td>1</td>
                 <td colspan="2"> 2, 3</td>
                </tr>
-               <tr bgcolor="#00FF00">
+               <tr bgcolor="f707afa6">
                 <td colspan="2"> 4, 5</td>
                  <td>6</td>
                </tr>
-               <tr bgcolor="#00FF00">
+               <tr bgcolor="#faebd7">
                 <td colspan="3"> 7, 8, 9</td>
                </tr>
-               <tr bgcolor="#FF0000">
+               <tr bgcolor="f707afa6">
                 <td rowspan="2"> 10,13</td>
                  <td>11</td>
                  <td>12</td>
                </tr>
-               <tr bgcolor="#00FF00">
+               <tr bgcolor="#faebd7">
                 <td> 14</td>
                  <td >15</td>
                </tr>
            
             </table>
-     
+            </div>
           
-
+            <div class="form">
+              <h2>Форма</h2>
              <label>
               Как тебя зовут?:<br />
               <input name="field-name-1"
@@ -144,9 +169,18 @@
          
             <input type="submit" value="Отправить" />
           </form>
-          
+          </div>
           <a id=“top”>
           
         </body>
+
+        <footer>
+          <div class="podval">
+          <h6 align="center">(c) Зайцева Антонина</h6></div>
+            </footer>
+       
+       <link rel="stylesheet" href="css/style.css">
+        
+
       
         
